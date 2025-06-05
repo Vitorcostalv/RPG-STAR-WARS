@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ascensão Inesperada - Guia RPG Star Wars</title>
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Landing Page -->
+  <section id="landing" class="landing active">
+    <img id="bg-gif" src="images/background.gif" alt="Star Wars Background" class="bg-gif">
+    <div class="landing-content">
+      <button id="start-btn">Entrar na Galáxia</button>
+    </div>
+  </section>
+
+  <!-- Estrutura das Seções Internas -->
+  <div id="main-app" class="main-app">
+    <header class="site-header">
+      <div class="logo">ASCENSÃO INESPERADA</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home" data-section="home">Home</a></li>
+          <li><a href="#racas" data-section="racas">Raças</a></li>
+          <li><a href="#habilidades" data-section="habilidades">Habilidades</a></li>
+          <li><a href="#classes" data-section="classes">Classes</a></li>
+          <li><a href="#estilos-combate" data-section="estilos-combate">Estilos de Combate</a></li>
+          <li><a href="#sistema" data-section="sistema">Sistema</a></li>
+          <li><a href="#regras" data-section="regras">Regras</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-btn" title="Idioma"><span class="globe-icon">🌐</span> PT</button>
+        <button class="menu-btn" title="Menu"><span class="dots-icon">⋮</span></button>
+      </div>
+    </header>
+    <main id="section-content" class="section-content">
+      <!-- Conteúdo das seções será injetado via JS -->
+    </main>
+  </div>
+  <script src="/public/js/main.js"></script>
+</body>
+</html> 
